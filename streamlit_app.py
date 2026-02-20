@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 import pandas as pd
 
-API_URL = "http://localhost:8000"
+API_URL = "http://15.206.73.171:8000"
+ 
 
 st.set_page_config(page_title="Insurance Predictor", page_icon="💰")
 
