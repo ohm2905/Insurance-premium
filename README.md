@@ -92,6 +92,7 @@ Backend will run on:
 http://localhost:8000/docs
 
 3️⃣ Run Streamlit
+
 streamlit run streamlit_app.py
 
 🔐 Environment Variables
