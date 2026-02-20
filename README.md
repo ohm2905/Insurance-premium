@@ -6,11 +6,11 @@ A full-stack Machine Learning project that predicts insurance premium based on u
 
 ## 🚀 Live Demo
 
-Frontend (Streamlit):
-https://insurance-premium-2905.streamlit.app
+**Frontend (Streamlit):**  
+https://insurance-premium-2905.streamlit.app  
 
-Backend (FastAPI Swagger Docs):
-http://15.206.73.171:8000/docs
+**Backend (FastAPI Swagger Docs):**  
+http://15.206.73.171:8000/docs  
 
 ---
 
@@ -39,24 +39,24 @@ Machine Learning Model (Scikit-learn)
 
 ## 🛠 Tech Stack
 
-**Frontend**
+### 🔹 Frontend
 - Streamlit
 - Requests
 - Pandas
 
-**Backend**
+### 🔹 Backend
 - FastAPI
 - SQLAlchemy
 - PostgreSQL
 - JWT Authentication
 - Uvicorn
 
-**Machine Learning**
+### 🔹 Machine Learning
 - Scikit-learn
 - Pandas
 - NumPy
 
-**Deployment**
+### 🔹 Deployment
 - Docker
 - AWS EC2
 - Streamlit Cloud
@@ -71,14 +71,16 @@ Machine Learning Model (Scikit-learn)
 ![App Screenshot](app_screenshot/4.png)
 ![App Screenshot](app_screenshot/5.png)
 ![App Screenshot](app_screenshot/6.png)
+
 ---
 
 ## ⚙️ How to Run Locally
 
 ### 1️⃣ Clone Repository
 
-```bash
+
 git clone https://github.com/ohm2905/Insurance-premium.git
+
 cd Insurance-premium
 
 
@@ -87,15 +89,14 @@ docker-compose up --build
 
 
 Backend will run on:
-
 http://localhost:8000/docs
 
-### 3️⃣ Run Streamlit
+3️⃣ Run Streamlit
 streamlit run streamlit_app.py
 
 🔐 Environment Variables
 
-Create .env file:
+Create a .env file in the root directory:
 
 SECRET_KEY=your_secret_key
 DATABASE_URL=your_database_url
